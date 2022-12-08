@@ -8,6 +8,9 @@ import com.opencsv.CSVReaderBuilder;
 import com.opencsv.bean.ColumnPositionMappingStrategy;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
+import stat.Category;
+import stat.Information;
+import stat.Statistic;
 
 import java.io.*;
 import java.net.ServerSocket;

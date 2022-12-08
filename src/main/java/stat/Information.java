@@ -1,3 +1,5 @@
+package stat;
+
 public class Information {
 
     private String title;
