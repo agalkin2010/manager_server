@@ -1,8 +1,11 @@
+package stat;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class Statistic {
 
@@ -59,6 +62,11 @@ public class Statistic {
 
         return maxAmountNum;
 
+    }
+
+    public long getMaxCategoryValue(){
+        int i = getMaxCategory();
+        return totalAmount.get(i);
     }
 
     public String getJsonStatistic(){

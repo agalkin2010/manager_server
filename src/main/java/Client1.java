@@ -1,5 +1,6 @@
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import stat.Information;
 
 import java.io.BufferedReader;
 import java.io.IOException;

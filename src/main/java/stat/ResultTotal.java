@@ -1,3 +1,5 @@
+package stat;
+
 public class ResultTotal {
     private ResultCategory maxCategory;
 
