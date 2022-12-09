@@ -16,7 +16,7 @@ public class Client1 {
             BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));
             PrintWriter out = new PrintWriter(client.getOutputStream(), true);){
 
-            Information info = new Information("курица", "2022.02.08", 600l);
+            Information info = new Information("булка", "2022.02.08", 100l);
 
             GsonBuilder builder = new GsonBuilder();
             Gson gson = builder.create();
